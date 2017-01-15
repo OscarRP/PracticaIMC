@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IMCPraxis</string>
+
+    <string name="bienvenido">Willkommen in IMC Calculator</string>
+    <string name="peso">Introducte Ihr Gewicht in kg</string>
+    <string name="altura">Geben Sie Ihre Größe in cm</string>
+    <string name="calcular">Klicken Sie auf Ihren IMC zu berechnen</string>
+    <string name="tabla">IMC-Referenztabelle</string>
+
+    <string name="tuimc">Ihr IMC ist:</string>
+    <string name="volver">Rückkehr</string>
+
+</resources>

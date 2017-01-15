@@ -1,0 +1,7 @@
+#Sun Jan 15 10:51:28 CET 2017
+base.0=/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_199b1ce14ffedcacfa4ec46f0058fb880a25cdfd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9bd610a4368b122b5fbeed20f9a83065d895b3d6/classes.dex
+base.1=/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9bd610a4368b122b5fbeed20f9a83065d895b3d6
+file.0=/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_199b1ce14ffedcacfa4ec46f0058fb880a25cdfd/classes.dex
