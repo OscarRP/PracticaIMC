@@ -23,6 +23,8 @@
         </activity>
         <activity android:name="com.example.oscarruizpatricio.practicaimc.CalculaActivity" />
         <activity android:name="com.example.oscarruizpatricio.practicaimc.InfoActivity" />
+        <activity android:name="com.example.oscarruizpatricio.practicaimc.LoginActivity" />
+        <activity android:name="com.example.oscarruizpatricio.practicaimc.RegistroActivity" />
     </application>
 
 </manifest>

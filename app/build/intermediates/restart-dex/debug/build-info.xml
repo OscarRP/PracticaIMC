@@ -5,51 +5,39 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="6414667337530"
-    token="-5516704205208373940"
+    timestamp="29714643131952"
+    token="7045206255509640030"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="948" />
+        duration="815" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="108" />
+        duration="104" />
     <task
         name="verifier"
-        duration="3" />
+        duration="1" />
 
     <artifact
-        location="/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        location="/Users/oscarruizpatricio/Desktop/Android/Prácticas/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="1262206632381"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="26069572396339"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
-            location="/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/outputs/apk/app-debug.apk"
+            location="/Users/oscarruizpatricio/Desktop/Android/Prácticas/PracticaIMC/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="6414667337530"
+        timestamp="29714643131952"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/oscarruizpatricio/Desktop/Android/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            location="/Users/oscarruizpatricio/Desktop/Android/Prácticas/PracticaIMC/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
             type="DEX" />
     </build>
 

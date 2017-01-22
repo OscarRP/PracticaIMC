@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.oscarruizpatricio.practicaimc.LoginActivity">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Usuario"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:textAlignment="center"
+        android:id="@+id/userEditText" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text=""
+        android:hint="Password"
+        android:ems="10"
+        android:textAlignment="center"
+        android:layout_below="@+id/userEditText"
+        android:layout_alignLeft="@+id/userEditText"
+        android:layout_alignStart="@+id/userEditText"
+        android:layout_marginTop="32dp"
+        android:id="@+id/passEditText" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/passEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/loginButton" />
+
+    <Button
+        android:text="Registrarse"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="59dp"
+        android:id="@+id/registerButton"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
