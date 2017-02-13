@@ -1,4 +1,4 @@
-package com.example.oscarruizpatricio.practicaimc;
+package com.example.oscarruizpatricio.practicaimc.Controlador;
 
 import android.content.Context;
 import android.util.Log;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.oscarruizpatricio.practicaimc.R;
 
 /**
  * Created by oscarruizpatricio on 7/1/17.

@@ -1,13 +1,16 @@
-package com.example.oscarruizpatricio.practicaimc;
+package com.example.oscarruizpatricio.practicaimc.Vista;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+
+import com.example.oscarruizpatricio.practicaimc.Adapter;
+import com.example.oscarruizpatricio.practicaimc.Listening;
+import com.example.oscarruizpatricio.practicaimc.R;
 
 public class InfoActivity extends AppCompatActivity {
 
@@ -41,7 +44,7 @@ public class InfoActivity extends AppCompatActivity {
 
         Log.d(InfoActivity.class.getCanonicalName(),"Hemos creado el array");
         //Creamos el Adapter
-        ListAdapter adaptador = new Adapter (this, array_info, array_info2, arrayImages, R.layout.fila);
+        ListAdapter adaptador = new Adapter(this, array_info, array_info2, arrayImages, R.layout.fila);
         //Asociar el Adapter a la vista
         ListView listview = (ListView) findViewById(R.id.tabla_info);
         listview.setAdapter(adaptador);

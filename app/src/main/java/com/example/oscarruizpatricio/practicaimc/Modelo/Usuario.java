@@ -1,4 +1,4 @@
-package com.example.oscarruizpatricio.practicaimc;
+package com.example.oscarruizpatricio.practicaimc.Modelo;
 
 /**
  * Created by oscarruizpatricio on 22/1/17.

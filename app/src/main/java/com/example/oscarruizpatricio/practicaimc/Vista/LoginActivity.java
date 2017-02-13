@@ -1,4 +1,4 @@
-package com.example.oscarruizpatricio.practicaimc;
+package com.example.oscarruizpatricio.practicaimc.Vista;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.oscarruizpatricio.practicaimc.Listening;
+import com.example.oscarruizpatricio.practicaimc.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -22,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
         Button botonLogin = (Button)findViewById(R.id.loginButton);
         Button botonRegistrar = (Button)findViewById(R.id.registerButton);
 
-        View.OnClickListener listener = new Listening (this, textUsuario, textPassword);
+        View.OnClickListener listener = new Listening(this, textUsuario, textPassword);
 
         botonLogin.setOnClickListener(listener);
         botonRegistrar.setOnClickListener(listener);

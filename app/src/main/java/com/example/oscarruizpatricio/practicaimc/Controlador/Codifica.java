@@ -1,4 +1,4 @@
-package com.example.oscarruizpatricio.practicaimc;
+package com.example.oscarruizpatricio.practicaimc.Controlador;
 
 /**
  * Created by oscarruizpatricio on 22/1/17.

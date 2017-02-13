@@ -1,4 +1,4 @@
-package com.example.oscarruizpatricio.practicaimc;
+package com.example.oscarruizpatricio.practicaimc.Modelo;
 
 import android.content.Context;
 import android.database.Cursor;

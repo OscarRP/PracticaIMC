@@ -1,4 +1,4 @@
-package com.example.oscarruizpatricio.practicaimc;
+package com.example.oscarruizpatricio.practicaimc.Controlador;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -9,8 +9,14 @@ import android.content.SharedPreferences;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 
-import java.util.List;
+import com.example.oscarruizpatricio.practicaimc.Modelo.BaseDatosUsuario;
+import com.example.oscarruizpatricio.practicaimc.R;
+import com.example.oscarruizpatricio.practicaimc.Vista.CalculaActivity;
+import com.example.oscarruizpatricio.practicaimc.Vista.InfoActivity;
+import com.example.oscarruizpatricio.practicaimc.Vista.MainActivity;
+import com.example.oscarruizpatricio.practicaimc.Vista.RegistroActivity;
 
 
 /**
@@ -162,6 +168,8 @@ public class Listening implements View.OnClickListener {
                 Intent intentoRegistro = new Intent(context, RegistroActivity.class);
                 context.startActivity(intentoRegistro);
                 break;
+            case R.id.imageView:
+                ImageView imagen = new HacerFoto(context).realizarFoto();
         }
 
     }
